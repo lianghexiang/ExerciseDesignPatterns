@@ -37,17 +37,3 @@ if __name__ == '__main__':
 
     st = Singleton("Tom")
     print(st)
-    print(st.name)
-    st2 = Singleton("Jerry")
-    print(st2)
-    print(st2.name)
-    quit()
-
-    s = LazySingleton()  # class initialized, but object not created
-    # print("Object created", Singleton.getInstance())  # Object gets created
-
-    s1 = LazySingleton()  # instance already created
-    s.getInstance()
-    s2 = LazySingleton()
-    s3 = LazySingleton()
-    print(s2.getInstance())
