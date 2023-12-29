@@ -33,6 +33,8 @@ class LazySingleton:
             cls.__instance = LazySingleton()
         return cls.__instance
 
+
+
 if __name__ == '__main__':
 
     st = Singleton("Tom")
