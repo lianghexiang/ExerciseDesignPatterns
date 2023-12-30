@@ -10,9 +10,7 @@ class ExerciseSinglePattern:
         self.a = a
         self.b = b
 
-# TODO 2 装饰器单例模式
-def singleton(cls):
-    pass
+
 if __name__ == '__main__':
     sp = ExerciseSinglePattern('a', 'b')
     sp2 = ExerciseSinglePattern('c', 'd')
