@@ -5,4 +5,3 @@ class ExerciseSinglePattern:
             cls.__instance = super().__new__(cls)
         return cls.__instance
 
-        
