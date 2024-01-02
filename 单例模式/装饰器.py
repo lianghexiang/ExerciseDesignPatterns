@@ -60,10 +60,11 @@ def wraps_test(text):
     time.sleep(2)
 
 if __name__ == '__main__':
-    # test('装饰器')
+    test('装饰器')
     # id_test2 = test2
     # print(test2)
 
     # 我们如果不使用functools.wraps
     func_name = wraps_test.__name__
     print(f"wraps_test函数名称：{func_name}")
+
